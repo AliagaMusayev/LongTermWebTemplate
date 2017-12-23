@@ -1,0 +1,230 @@
+/* HEADER Contacts and Socials*/
+
+header .contacts{
+    float: left;
+    padding: 10px;
+}
+
+header .contacts i{
+    margin-left: 15px;
+    color: #00bcd4;
+}
+
+header .contacts a,
+header .contacts span{
+    font-size: 12px;
+}
+
+header .contacts a:hover{
+    text-decoration:none;
+}
+
+header .contacts i:nth-of-type(2){
+    font-size: 20px;
+}
+
+header .socials{
+    float: right;
+    padding: 10px;
+}
+
+header .socials a{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+header .socials i{
+    color: #c7c7c7;
+}
+
+header .socials i:hover{
+    color: #00bcd4;
+}
+
+
+header>.contactsAndScials .container{
+    border-bottom: 1px solid lightgray;
+}
+
+/* HEADER logo and card*/
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    /* height: 45px; */
+    max-height: 100%;
+}
+
+.logo, .cardAndSearch{
+    margin-top: 40px;
+}
+.cardAndSearch{
+    padding-top: 20px;
+    float: right;
+}
+
+.cardAndSearch i{
+    font-size: 15px;
+    color: #c7c7c7;
+}
+
+.cardAndSearch span{
+    color: #c7c7c7;
+}
+
+.card, .search{
+    margin-right: 25px;
+}
+
+.cardAndSearch>.card{
+    float: left;
+}
+
+.cardAndSearch>.search{
+    float: right;
+}
+
+/* .logoAndCard{
+    position: fixed;
+} */
+
+/* Header navbar */
+
+.navigation-bar{
+    margin-top: 35px;
+    /* position: fixed; */
+}
+.navbar-default{
+    background-color: #00bcd4;
+    border-radius: 0px;
+}
+
+.navigation-bar ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .navigation-bar ul li:active{
+    
+    background-color: #00bcd4;
+    
+} */
+
+.navbar-default .navbar-nav>li>a{
+    color: #75dbe8;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    border-bottom: 1px solid orangered;
+    box-sizing: border-box;
+    background-color: #0cd6f5;
+}
+
+/* Slide */
+
+.container-fluid{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.carousel-indicators li {
+    border:1px solid dodgerblue;
+    background-color: dodgerblue;
+}
+
+#Slide1{
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+#Slide2{
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#Slide2 h1:nth-of-type(1){
+    color: black;
+}
+
+#Slide2 h1:nth-of-type(2){
+    color: #00bcd4;
+}
+
+#Slide2 h1:nth-of-type(3){
+    color: grey;
+}
+
+#Slide2 h4{
+    color: black;
+}
+
+#Slide3{
+    margin: 100px;
+}
+
+#Slide3>h1{
+    font-size: 100px;
+}
+
+.btnFeautures{
+    margin-left: 10px;
+}
+
+/* After slide support div */
+.support{
+    margin-top: 90px;
+}
+.support i{
+    font-size: 40px;
+    color: #00bcd4;
+}
+
+.support span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.support a{
+    text-transform: uppercase;
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+/* options */
+.options{
+    margin-top: 300px;
+}
+
+.leftSide{
+    margin-top: 80px;
+    text-align: right;
+}
+ .leftSide span{
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .leftSide i{
+     font-size: 35px;
+     color: #00bcd4;
+ }
+
+ .rightSide{
+    margin-top: 80px;
+    text-align: left;
+}
+ .rightSide span{
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .rightSide i{
+     font-size: 35px;
+     color: #00bcd4;
+ }
+
+ /* .rightSide .col-md-11{
+    margin-left: 1px;
+ } */
